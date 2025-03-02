@@ -1,0 +1,7 @@
+{
+  "urls": [
+    ["neotrellis/__init__.py", "github:mchobby/micropython-neotrellis/lib/neotrellis/__init__.py"],
+    ["neotrellis/_neotrellis.py", "github:mchobby/micropython-neotrellis/lib/neotrellis/_neotrellis.py"]
+  ],
+  "version": "1.0"
+}
