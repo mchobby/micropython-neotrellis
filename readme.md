@@ -65,9 +65,11 @@ The Raspberry-Pi Pico can be wired to the NeoTrellis either via a [JST-PH4 conne
 
 The examples are adapted from CircuitPython examples.
 
-* [simpletest.py](examples/simpletest.py) example show how control the pixels and detects button event __on a single NeoTrellis__.
+* [simpletest.py](examples/simpletest.py) : show how control the pixels and detects button event __on a single NeoTrellis__. See the __[VIDEO of simpletest.py](https://youtu.be/X97S21PTyt4) in action__.
+* [key_pressed.py](examples/key_pressed.py) : single button detection to switch on/off an output pin. Made for __a single NeoTrellis__.
+* [multitrellistest.py](examples/multitrellistest.py) : tile NeoTrellis to create a enlarged "NeoTrellis". Use the __MultiTrellis__ class to control it.
 
-See the [VIDEO of simpletest.py](https://youtu.be/X97S21PTyt4) in action.
+![MultiTrellis coordinates](docs/_static/multitrellis.jpg)
 
 # Ressources
 * [Adafruit NeoTrellis for CircuitPython](https://github.com/adafruit/Adafruit_CircuitPython_NeoTrellis/blob/main/adafruit_neotrellis/neotrellis.py) (_GitHub, AdaFruit, English_)
